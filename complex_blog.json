@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id":0,
     "Title": "Amazing blog post",
     "Subtitle": "Can complexity be fun?",
     "SmallBody": "Something to catch more attention for the reader to be interested in opening and reading this blog.",
@@ -10,7 +10,7 @@
     "Schedule": null,
     "Body": [
       {
-        "id": 0,
+        "id":0,
         "Type": "Header",
         "Data": "I'm a header!",
       },
