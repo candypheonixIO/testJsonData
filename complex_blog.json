@@ -1,33 +1,35 @@
 [
   {
     "id" : 0,
-    "title" : "Amazing blog post",
-    "subtitle" : "Can complexity be fun?",
-    "smallbody" : "Something to catch more attention for the reader to be interested in opening and reading this blog.",
-    "author" : "Awsome Studio",
-    "coverimage" : "https://via.placeholder.com/512",
-    "posteddate" : "04/23/2020",
-    "schedule" : null,
+    "title" : "Awsome Title",
+    "author" : "John Doe",
+    "posted" : "April 23, 2020",
+    "scheduled" : null,
+    "thumbnail" : "https://via.placeholder.com/512",
     "body" : [
       {
         "type" : "header",
-        "data" : "I'm a header!",
+        "data" : {
+          "text" : "This is an awsome header!",
+          "level" : 2
+        }
       },
       {
         "type" : "paragraph",
-        "data" : "Here is some interesting text to go with the next image, but before you look at it, I need to tell you about some random junk that might interest you and add more value to that image, but that is more of an opinion and a guess of how you, the user will consume this information."
+        "data" : {
+          "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
       },
       {
         "type" : "image",
-        "data" : "https://via.placeholder.com/512x256"
-      },
-      {
-        "type" : "paragraph",
-        "data" : "So, how was the image? Pretty \"Placeholder-like\" right?"
-      },
-      {
-        "type" : "header",
-        "data" : "Another Segment of the blog."
+        "data" : {
+          "file" : {
+            "url" : "https://via.placeholder.com/512x256"
+          },
+          "caption" : "Caption this image",
+          "border" : false,
+          "background" : false
+        }
       },
       {
         "type" : "list",
@@ -35,8 +37,8 @@
           "style" : "unordered",
           "items" : [
             "I'm a list item",
-            "I'm another list item",
-            "And i'm the last list item here"
+            "I'm his friend, a list item",
+            "I dont know these two"
           ]
         }
       }
