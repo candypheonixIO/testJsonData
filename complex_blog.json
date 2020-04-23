@@ -1,38 +1,44 @@
 [
   {
-    "id":0,
-    "Title": "Amazing blog post",
-    "Subtitle": "Can complexity be fun?",
-    "SmallBody": "Something to catch more attention for the reader to be interested in opening and reading this blog.",
-    "Author": "Awsome Studio",
-    "CoverImage": "https://via.placeholder.com/512",
-    "PostedDate": "04/23/2020",
-    "Schedule": null,
-    "Body": [
+    "id" : 0,
+    "title" : "Amazing blog post",
+    "subtitle" : "Can complexity be fun?",
+    "smallbody" : "Something to catch more attention for the reader to be interested in opening and reading this blog.",
+    "author" : "Awsome Studio",
+    "coverimage" : "https://via.placeholder.com/512",
+    "posteddate" : "04/23/2020",
+    "schedule" : null,
+    "body" : [
       {
-        "id":0,
-        "Type": "Header",
-        "Data": "I'm a header!",
+        "type" : "header",
+        "data" : "I'm a header!",
       },
       {
-        "id":1,
-        "Type": "Para",
-        "Data": "Here is some interesting text to go with the next image, but before you look at it, I need to tell you about some random junk that might interest you and add more value to that image, but that is more of an opinion and a guess of how you, the user will consume this information."
+        "type" : "paragraph",
+        "data" : "Here is some interesting text to go with the next image, but before you look at it, I need to tell you about some random junk that might interest you and add more value to that image, but that is more of an opinion and a guess of how you, the user will consume this information."
       },
       {
-        "id":2,
-        "Type": "Img",
-        "Data": "https://via.placeholder.com/512x256"
+        "type" : "image",
+        "data" : "https://via.placeholder.com/512x256"
       },
       {
-        "id":3,
-        "Type": "Para",
-        "Data": "So, how was the image? Pretty \"Placeholder-like\" right?"
+        "type" : "paragraph",
+        "data" : "So, how was the image? Pretty \"Placeholder-like\" right?"
       },
       {
-        "id":4,
-        "Type": "Header",
-        "Data": "Another Segment of the blog."
+        "type" : "header",
+        "data" : "Another Segment of the blog."
+      },
+      {
+        "type" : "list",
+        "data" : {
+          "style" : "unordered",
+          "items" : [
+            "I'm a list item",
+            "I'm another list item",
+            "And i'm the last list item here"
+          ]
+        }
       }
     ]
   }
