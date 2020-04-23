@@ -10,26 +10,31 @@
     "Schedule": null,
     "Body": [
       {
-        "id":0,
+        "id": 0,
+        "Type": "Header",
+        "Data": "I'm a header!",
+      },
+      {
+        "id":1,
         "Type": "Para",
         "Data": "Here is some interesting text to go with the next image, but before you look at it, I need to tell you about some random junk that might interest you and add more value to that image, but that is more of an opinion and a guess of how you, the user will consume this information."
       },
       {
-        "id":1,
+        "id":2,
         "Type": "Img",
         "Data": "https://via.placeholder.com/512x256"
       },
       {
-        "id":2,
+        "id":3,
         "Type": "Para",
         "Data": "So, how was the image? Pretty \"Placeholder-like\" right?"
       }
     ]
   },
   {
-    "id": 1,
-    "Title": "Amazing blog post number 2",
-    "Subtitle": "How in the world will you handle this data?",
+    "id": 0,
+    "Title": "Amazing blog post",
+    "Subtitle": "Can complexity be fun?",
     "SmallBody": "Something to catch more attention for the reader to be interested in opening and reading this blog.",
     "Author": "Awsome Studio",
     "CoverImage": "https://via.placeholder.com/512",
@@ -37,31 +42,54 @@
     "Schedule": null,
     "Body": [
       {
-        "id":0,
-        "Type": "Para",
-        "Data": "Just copy and pasteing data here, kind of pretending like this would be generated in backend by your team or PR department becuase you, the Webdeveloper, made and gave them the tools to even be able to understand that they are usefull, but they still think you just typed \"Computer, make program and website, thanks\" and your computer pooped out some beutiful buggy work."
+        "id": 0,
+        "Type": "Header",
+        "Data": "I'm a header!",
       },
       {
         "id":1,
+        "Type": "Para",
+        "Data": "Here is some interesting text to go with the next image, but before you look at it, I need to tell you about some random junk that might interest you and add more value to that image, but that is more of an opinion and a guess of how you, the user will consume this information."
+      },
+      {
+        "id":2,
         "Type": "Img",
         "Data": "https://via.placeholder.com/512x256"
       },
       {
-        "id":2,
-        "Type": "Para",
-        "Data": "hmmm, I dont remember putting that image there."
-      },
-      {
         "id":3,
         "Type": "Para",
-        "Data": "And just to test that this works, here is a random, additional paragraph to render."
+        "Data": "So, how was the image? Pretty \"Placeholder-like\" right?"
+      },
+      {
+        "id":4,
+        "Type": "Header",
+        "Data": "Another Segment of the blog."
+      },
+      {
+        "id":5,
+        "Type": "List",
+        "Data": [
+          {
+            "id": 0,
+            "Data": "I'm a list item!"
+          },
+          {
+            "id": 1,
+            "Data": "I'm a list item!"
+          },
+          {
+            "id": 2,
+            "Data": "I'm a list item!"
+          }
+        ]
       }
     ]
   },
   {
-    "id": 2,
-    "Title": "Not available till tomarrow",
-    "Subtitle": "How in the world will you handle this data?",
+    "id": 0,
+    "Title": "Amazing blog post",
+    "Subtitle": "I can only be seen after April 24, 2020",
     "SmallBody": "Something to catch more attention for the reader to be interested in opening and reading this blog.",
     "Author": "Awsome Studio",
     "CoverImage": "https://via.placeholder.com/512",
@@ -69,24 +97,24 @@
     "Schedule": "2020-04-24Z",
     "Body": [
       {
-        "id":0,
-        "Type": "Para",
-        "Data": "Just copy and pasteing data here, kind of pretending like this would be generated in backend by your team or PR department becuase you, the Webdeveloper, made and gave them the tools to even be able to understand that they are usefull, but they still think you just typed \"Computer, make program and website, thanks\" and your computer pooped out some beutiful buggy work."
+        "id": 0,
+        "Type": "Header",
+        "Data": "Cab you see me?",
       },
       {
         "id":1,
+        "Type": "Para",
+        "Data": "Here is some interesting text to go with the next image, but before you look at it, I need to tell you about some random junk that might interest you and add more value to that image, but that is more of an opinion and a guess of how you, the user will consume this information."
+      },
+      {
+        "id":2,
         "Type": "Img",
         "Data": "https://via.placeholder.com/512x256"
       },
       {
-        "id":2,
-        "Type": "Para",
-        "Data": "hmmm, I dont remember putting that image there."
-      },
-      {
         "id":3,
         "Type": "Para",
-        "Data": "And just to test that this works, here is a random, additional paragraph to render."
+        "Data": "So, how was the image? Pretty \"Placeholder-like\" right?"
       }
     ]
   }
