@@ -7,14 +7,17 @@
     "Author": "Awsome Studio",
     "Body": [
       {
+        "id":0,
         "Type": "Para",
         "Data": "Here is some interesting text to go with the next image, but before you look at it, I need to tell you about some random junk that might interest you and add more value to that image, but that is more of an opinion and a guess of how you, the user will consume this information."
       },
       {
+        "id":1,
         "Type": "Img",
         "Data": "https://via.placeholder.com/512x256"
       },
       {
+        "id":2,
         "Type": "Para",
         "Data": "So, how was the image? Pretty \"Placeholder-like\" right?"
       }
@@ -28,18 +31,22 @@
     "Author": "Awsome Studio",
     "Body": [
       {
+        "id":0,
         "Type": "Para",
         "Data": "Just copy and pasteing data here, kind of pretending like this would be generated in backend by your team or PR department becuase you, the Webdeveloper, made and gave them the tools to even be able to understand that they are usefull, but they still think you just typed \"Computer, make program and website, thanks\" and your computer pooped out some beutiful buggy work."
       },
       {
+        "id":1,
         "Type": "Img",
         "Data": "https://via.placeholder.com/512x256"
       },
       {
+        "id":2,
         "Type": "Para",
         "Data": "hmmm, I dont remember putting that image there."
       },
       {
+        "id":3,
         "Type": "Para",
         "Data": "And just to test that this works, here is a random, additional paragraph to render."
       }
