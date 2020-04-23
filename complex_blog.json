@@ -1,0 +1,44 @@
+[
+  {
+    id: 0,
+    Title: "Amazing blog post",
+    Subtitle: "Can complexity be fun?",
+    Body: [
+      {
+        Type: "Para",
+        Data: "Here is some interesting text to go with the next image, but before you look at it, I need to tell you about some random junk that might interest you and add more value to that image, but that is more of an opinion and a guess of how you, the user will consume this information."
+      },
+      {
+        Type: "Img",
+        Data: "https://via.placeholder.com/512x256"
+      },
+      {
+        Type: "Para",
+        Data: "So, how was the image? Pretty \"Placeholder-like\" right?"
+      }
+    ]
+  },
+  {
+    id: 1,
+    Title: "Amazing blog post number 2",
+    Subtitle: "How in the world will you handle this data?",
+    Body: [
+      {
+        Type: "Para",
+        Data: "Just copy and pasteing data here, kind of pretending like this would be generated in backend by your team or PR department becuase you, the Webdeveloper, made and gave them the tools to even be able to understand that they are usefull, but they still think you just typed \"Computer, make program and website, thanks\" and your computer pooped out some beutiful buggy work."
+      },
+      {
+        Type: "Img",
+        Data: "https://via.placeholder.com/512x256"
+      },
+      {
+        Type: "Para",
+        Data: "hmmm, I dont remember putting that image there."
+      },
+      {
+        Type: "Para",
+        Data: "And just to test that this works, here is a random, additional paragraph to render."
+      }
+    ]
+  }
+]
