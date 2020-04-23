@@ -33,24 +33,6 @@
         "id":4,
         "Type": "Header",
         "Data": "Another Segment of the blog."
-      },
-      {
-        "id":5,
-        "Type": "List",
-        "Data": [
-          {
-            "id": 0,
-            "Data": "I'm a list item!"
-          },
-          {
-            "id": 1,
-            "Data": "I'm a list item!"
-          },
-          {
-            "id": 2,
-            "Data": "I'm a list item!"
-          }
-        ]
       }
     ]
   }
