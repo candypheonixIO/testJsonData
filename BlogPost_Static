@@ -1,0 +1,20 @@
+[
+  {
+    id: 0,
+    Title: "Amazing Blog",
+    Subtitle: "Make your own",
+    Body: "It's soooo easy, just make an amazing title, eye catching subtitle, then just slap a bunch of information into the body for the end user to read!"
+  },
+   {
+    id: 1,
+    Title: "Amazing Blog2",
+    Subtitle: "Who is Lorem",
+    Body: "I keep hearing about this person in everyone's webapp projects, but then they remove her from the production build. Why is that?"
+  },
+   {
+    id: 2,
+    Title: "Amazing Blog number 3",
+    Subtitle: "Vue.js, Is it good?",
+    Body: "I don't know, really depends on the work. If it needs to be easy to manage down the line when you add more features, vue might be a better option, but every framework has it's pros and cons, it's just up to you or the team to make this choice."
+  }
+]
