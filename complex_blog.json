@@ -43,5 +43,75 @@
         }
       }
     ]
+  },
+  {
+    "id" : 1,
+    "title" : "Awsome Title",
+    "author" : "John Doe",
+    "posted" : "April 23, 2020",
+    "scheduled" : null,
+    "thumbnail" : "https://via.placeholder.com/512",
+    "body" : [
+      {
+        "type" : "header",
+        "data" : {
+          "text" : "This is an awsome header!",
+          "level" : 1
+        }
+      },
+      {
+        "type" : "paragraph",
+        "data" : {
+          "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      },
+      {
+        "type" : "image",
+        "data" : {
+          "file" : {
+            "url" : "https://via.placeholder.com/512x256"
+          },
+          "caption" : "Caption this image",
+          "border" : false,
+          "background" : false
+        }
+      },
+      {
+        "type" : "list",
+        "data" : {
+          "style" : "unordered",
+          "items" : [
+            "I'm a list item",
+            "I'm his friend, a list item",
+            "I dont know these two",
+            "I'm new here"
+          ]
+        }
+      },
+      {
+        "type" : "header",
+        "data" : {
+          "text" : "This is a new segment!",
+          "level" : 2
+        }
+      },
+      {
+        "type" : "image",
+        "data" : {
+          "file" : {
+            "url" : "https://via.placeholder.com/512x256"
+          },
+          "caption" : "New caption for testing",
+          "border" : true,
+          "background" : false
+        }
+      },
+      {
+        "type" : "paragraph",
+        "data" : {
+          "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      }
+    ]
   }
 ]
